@@ -103,42 +103,6 @@ body {
 		0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.btn-wszystkie {
-	display: block;
-	width: 121px;
-	height: 38px;
-	left: 510px;
-	top: 174px;
-}
-.btn-strony {
-	display: block;
-	width: 93px;
-	height: 38px;
-	left: 639px;
-	top: 174px;
-}
-
-.btn-aplikacje {
-	display: block;
-	width: 114px;
-	height: 38px;
-	left: 740px;
-	top: 174px;
-}
-.btn-dizajn {
-	display: block;
-	width: 91px;
-	height: 38px;
-	left: 862px;
-	top: 174px;
-}
-.btn-marketing {
-	display: block;
-	width: 121px;
-	height: 38px;
-	left: 961px;
-	top: 174px;
-}
 
 ul {
 	list-style-type: none;
