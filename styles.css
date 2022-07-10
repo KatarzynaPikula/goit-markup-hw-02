@@ -1,8 +1,8 @@
 body {
 	font-family: "Roboto", sans-serif;
-	color: #212121;
 	background: #e5e5e5;
 	line-height: 1.7;
+	color: #212121;
 }
 .logo {
 	font-family: "Raleway";
@@ -22,7 +22,7 @@ body {
 	line-height: 16px;
 	letter-spacing: 0.02em;
 	text-decoration: none;
-	color: #212121;
+	color: var(--body);
 }
 
 .contact-links-top {
@@ -32,7 +32,7 @@ body {
 	line-height: 16px;
 	letter-spacing: 0.02em;
 	text-decoration: none;
-	color: #212121;
+	color: var(--body);
 }
 
 .contact-links-top:hover {
@@ -90,11 +90,11 @@ body {
 	line-height: 26px;
 	text-align: center;
 	letter-spacing: 0.03em;
-
 	background-color: #f5f4fa;
 	cursor: pointer;
 	border-radius: 4px;
 	border: 0;
+	color: var(--body);
 }
 .button-filter:hover {
 	background-color: #2196f3;
@@ -145,6 +145,7 @@ ul {
 
 	font-style: normal;
 	letter-spacing: 0.03em;
+	color: var(--body);
 }
 
 .reference-text {
@@ -162,6 +163,7 @@ ul {
 	line-height: 16px;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	color: var(--body);
 }
 
 h2 {
@@ -171,6 +173,7 @@ h2 {
 	line-height: 42px;
 	text-align: center;
 	letter-spacing: 0.03em;
+	color: var(--body);
 }
 .team-name {
 	font-style: normal;
@@ -178,6 +181,7 @@ h2 {
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 0.03em;
+	color: var(--body);
 }
 
 .team-position {
@@ -209,7 +213,9 @@ address {
 	font-size: 18px;
 	line-height: 36px;
 	letter-spacing: 0.06em;
+	color: var(--body);
 }
+
 .panel-content {
 	font-style: normal;
 	font-weight: 400;
